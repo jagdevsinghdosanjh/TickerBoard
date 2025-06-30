@@ -94,3 +94,11 @@ tbody tr:hover {
   color: #888;
   font-size: 0.9rem;
 }
+.chart-wrapper {
+  margin-top: 40px;
+}
+
+#stockChart {
+  width: 100% !important;
+  height: 400px !important;
+}
