@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TickerBoard – Multi-Company Stock Dashboard [Ticker Board]</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="header-container"></div>
+
+        <!-- ...company selector and table... -->
+
+        <div id="footer-container"></div>
+    </div>
+
+
+
+    <div class="container">
+        <header>
+            <h1>TickerBoard – Multi-Company Stock Dashboard [Ticker Board]</h1>
+            <p class="tagline">Your Market. Your Momentum.</p>
+        </header>
+
+        <div class="selector">
+            <label for="company-select">Select a Company:</label>
+            <select id="company-select">
+                <option value="AAPL">Apple Inc. (AAPL)</option>
+                <option value="GOOGL">Alphabet Inc. (GOOGL)</option>
+                <option value="MSFT">Microsoft Corp. (MSFT)</option>
+                <option value="NVDA">NVIDIA Corp. (NVDA)</option>
+                <option value="TSLA">Tesla Inc. (TSLA)</option>
+                <option value="INFY">Infosys Ltd. (INFY)</option>
+            </select>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Volume</th>
+                    <th>VWAP</th>
+                    <th>Open</th>
+                    <th>Close</th>
+                    <th>High</th>
+                    <th>Low</th>
+                    <th>Trades</th>
+                </tr>
+            </thead>
+            <tbody id="stock-data">
+                <!-- Data will be injected here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

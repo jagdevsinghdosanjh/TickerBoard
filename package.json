@@ -1,0 +1,7 @@
+{
+  "name": "tickerboard",
+  "version": "1.0.0",
+  "dependencies": {
+    "@polygon.io/client-js": "^7.3.2"
+  }
+}
