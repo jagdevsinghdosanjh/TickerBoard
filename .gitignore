@@ -1,5 +1,0 @@
-echo ".env" >> .gitignore
-git add .gitignore
-git commit -m "Updated .gitignore to exclude .env"
-git push origin main
-.vercel

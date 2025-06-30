@@ -10,12 +10,12 @@
     {
       "src": "/api/stock",
       "dest": "/api/stock.js"
-    },
-    {
+    }
+  {
       "src": "/",
       "dest": "/index.html"
     }
-    {
+  {
       "src": "/(.*)",
       "dest": "/$1"
     }
